@@ -136,7 +136,7 @@ header {
 
 
 
-  @media (max-width: 1260px) {
+  @media (max-width: 960px) {
     /* Show the mobile message and hide the container */
     .container {
       display: none;
