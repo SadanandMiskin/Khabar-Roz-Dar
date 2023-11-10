@@ -12,7 +12,7 @@ app.use(express.static(__dirname + '/public'))
 const PORT = process.env.PORT
 app.get('/',async (req,res)=>{
     try{
-        const response = await axios.get('https://real-gray-anemone-belt.cyclic.app/news')
+        const response = await axios.get('https://clear-bull-flannel-nightgown.cyclic.app/news')
         const responseData = response.data
         res.render('index' , {responseData})
     }
